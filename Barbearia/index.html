@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+        <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Barbearia Imperial - Estilo e Tradição</title>
+            <link rel="stylesheet" href="style.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+            <link rel="icon" type="image/png" href="assets/favicon-32x32.png">
+        </head>
+        <body>
+
+            <header class="header">
+                <nav class="container">
+                    <a href="#" class="logo">Barbearia Imperial</a>
+                    <ul class="nav-links">
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#gallery">Galeria</a></li>
+                        <li><a href="#products">Produtos</a></li>
+                    </ul>
+                    <a href="#" class="cta-button" id="schedule-btn">Agendar Horário</a>
+                </nav>
+            </header>
+
+            <main>
+                <section class="hero">
+                    <div class="hero-overlay"></div>
+                    <div class="container">
+                        <h1>Onde a Tradição Encontra o Estilo Moderno.</h1>
+                        <p>Cortes precisos, barbas impecáveis e um ambiente feito para cavalheiros.</p>
+                        <a href="#services" class="cta-button large">Conheça Nossos Serviços</a>
+                    </div>
+                </section>
+
+                <section id="services" class="services">
+                    <div class="container">
+                        <h2 data-aos="fade-up">Nossos Serviços</h2>
+                        <div class="services-grid">
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                                <h3>Corte Clássico</h3>
+                                <p class="price">R$ 50</p>
+                                <p>Tesoura e máquina, finalização com pomada e estilo à sua escolha.</p>
+                            </div>
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                                <h3>Barba Imperial</h3>
+                                <p class="price">R$ 40</p>
+                                <p>Toalha quente, navalha, óleos essenciais e massagem facial.</p>
+                            </div>
+                            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                                <h3>Combo Imperial (Corte + Barba)</h3>
+                                <p class="price">R$ 80</p>
+                                <p>A experiência completa para um visual renovado e impecável.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="gallery" class="gallery">
+                    <div class="container">
+                        <h2 data-aos="fade-up">Nossa Arte</h2>
+                        <div class="gallery-grid">
+                            <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                                <img src="assets/degrade.jpg" alt="Corte de cabelo masculino degradê">
+                                <div class="gallery-info"><h3>Degradê Navalhado</h3></div>
+                            </div>
+                            <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                                <img src="assets/social.webp" alt="Corte de cabelo masculino social">
+                                <div class="gallery-info"><h3>Social Clássico</h3></div>
+                            </div>
+                            <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                                <img src="assets/pompadour.jpg" alt="Corte de cabelo masculino pompadour">
+                                <div class="gallery-info"><h3>Pompadour</h3></div>
+                            </div>
+                            <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+                                <img src="assets/buzzcut.jpg" alt="Corte de cabelo masculino buzz cut">
+                                <div class="gallery-info"><h3>Buzz Cut</h3></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="products" class="products">
+                    <div class="container">
+                        <h2 data-aos="fade-up">Leve o Estilo Imperial para Casa</h2>
+                        <div class="products-grid">
+                            <div class="product-item" data-aos="fade-up" data-aos-delay="100">
+                                <img src="assets/pomada.jpg" alt="Pomada Modeladora Imperial">
+                                <h3>Pomada Efeito Matte</h3>
+                                <p class="product-price">R$ 35,00</p>
+                                <a href="#" class="cta-button">Adicionar ao Carrinho</a>
+                            </div>
+                            <div class="product-item" data-aos="fade-up" data-aos-delay="200">
+                                <img src="assets/oleo-barba.jpg" alt="Óleo para Barba Imperial">
+                                <h3>Óleo para Barba</h3>
+                                <p class="product-price">R$ 45,00</p>
+                                <a href="#" class="cta-button">Adicionar ao Carrinho</a>
+                            </div>
+                            <div class="product-item" data-aos="fade-up" data-aos-delay="300">
+                                <img src="assets/shampoo.jpg" alt="Shampoo Fortificante Imperial">
+                                <h3>Shampoo Fortificante</h3>
+                                <p class="product-price">R$ 40,00</p>
+                                <a href="#" class="cta-button">Adicionar ao Carrinho</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        
+            </main>
+
+            <footer class="footer">
+                <div class="container">
+                    <p>&copy; 2025 Barbearia Imperial. Todos os direitos reservados. (Projeto de Portfólio)</p>
+                </div>
+            </footer>
+
+            <div class="modal-overlay" id="booking-modal">
+                <div class="modal-content">
+                    <button class="close-modal" id="close-modal-btn">&times;</button>
+                    <h2>Agende seu Horário</h2>
+                    <p>Preencha as informações abaixo e entraremos em contato para confirmar.</p>
+                    <form id="booking-form">
+                        <div class="form-group">
+                            <label for="name">Seu Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Seu Telefone (WhatsApp):</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Serviço Desejado:</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Selecione um serviço</option>
+                                <option value="corte">Corte Clássico</option>
+                                <option value="barba">Barba Imperial</option>
+                                <option value="combo">Combo (Corte + Barba)</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="cta-button">Solicitar Agendamento</button>
+                    </form>
+                </div>
+            </div>
+    
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init({ duration: 800, once: false });
+            </script>
+            <script src="script.js"></script>
+        </body>
+        </html>
